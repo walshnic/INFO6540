@@ -1,0 +1,1942 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/db/ontologies/2018/1/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/db/ontologies/2018/1/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment>Color of coat occuring in a breed standard or individual cat.</rdfs:comment>
+        <rdfs:label xml:lang="en">HasCoatColor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208">
+        <rdfs:label xml:lang="en">HasCoatLength</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209">
+        <rdfs:label xml:lang="en">HasCoatType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210">
+        <rdfs:label xml:lang="en">HasTailLength</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034">
+        <rdfs:comment>A small four-legged domesticated mammal, commonly kept as a pet</rdfs:comment>
+        <rdfs:label xml:lang="en">Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000037 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of domestic short-haired cat</rdfs:comment>
+        <rdfs:label xml:lang="en">Abyssinian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat with unique curled back ears</rdfs:comment>
+        <rdfs:label xml:lang="en">AmericanCurl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000045 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat, known for it`s short tail</rdfs:comment>
+        <rdfs:label xml:lang="en">AmericanBobtail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000076 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A popular breed of cat</rdfs:comment>
+        <rdfs:label xml:lang="en">AmericanShorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000077 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat named for its unique wire coat</rdfs:comment>
+        <rdfs:label xml:lang="en">AmericanWirehair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000078 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Long-haired variety of the Siamese breed of cat.</rdfs:comment>
+        <rdfs:label xml:lang="en">Balinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Siamese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000080 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Athletic breed of cat, known for its leopard like markings.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bengal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000081 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A popular cat breed known for its long silky coat.</rdfs:comment>
+        <rdfs:label xml:lang="en">Birman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000082 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat known for its jet black colouring</rdfs:comment>
+        <rdfs:label xml:lang="en">Bombay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000083 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A popular breed known for its short thick coat, and round head, cheeks and eyes.</rdfs:comment>
+        <rdfs:label xml:lang="en">BritishShorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000084 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A solid/muscular breed of cat.</rdfs:comment>
+        <rdfs:label xml:lang="en">Burmese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000085 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat, characterized by its silver/white &quot;background&quot; coat colour.</rdfs:comment>
+        <rdfs:label xml:lang="en">Burmilla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000086 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat known for their waterproof coat and bright orange eyes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Chartreux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000088 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat known for its wedge-shaped head and large ears.</rdfs:comment>
+        <rdfs:label xml:lang="en">ColourpointShorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000089 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A cat breed originating in Cornwall, England. Known for its wavy coat.</rdfs:comment>
+        <rdfs:label xml:lang="en">CornishRex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000090 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed of cat known for its short tail. Sub-breed of the Manx with a long coat.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cymric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000091 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A breed originating in Devon, England. Known for its wavy coat.</rdfs:comment>
+        <rdfs:label xml:lang="en">DevonRex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000113 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Breed known for a cheetah gait and a loose skin flap that extends from flank to hind leg.</rdfs:comment>
+        <rdfs:label xml:lang="en">EgyptianMau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000115 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>They are bred to meet the Persian standard in every way with one very special exception: the coat has a thick, dense, plush, short coat.</rdfs:comment>
+        <rdfs:label xml:lang="en">ExoticShorthair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000116 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Breed of cat known for it&apos;s unique chocolate brown coat and vivid green eyes.</rdfs:comment>
+        <rdfs:label xml:lang="en">HavanaBrown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000117 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Japanese Bobtail is one of the oldest naturally occurring breeds of cat and is native to the islands of Japan.</rdfs:comment>
+        <rdfs:label xml:lang="en">JapaneseBobtail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000118 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The Korat was discovered in Ampur Pimai of the Korat province in Thailand. The earliest known record of the Korat is between 1350-1767.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Korat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000119 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A breed stemming from barn cat stock, known for it&apos;s soft curly coat.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">LaPerm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000121 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A Native American long-haired clarge breed cat, official breed of the state of Maine.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MaineCoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000122 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The Manx cat is an ancient breed that originated on the Isle of Man in the Irish Sea. Breed known for it&apos;s short tail length, caused by a mutation that spread across the island. Tail comes in 5 varieties.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Manx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000123 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Known as the Skogkatt in its native Norway, the Norwegian Forest Cat is a large, semi-longhaired cat with a rugged appearance.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NorwegienForestCat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000124 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000124">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A large, active breedwith an athletic appearance. It is very solid and well-muscled and is known for it&apos;s spotted markings.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ocicat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000125 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000125">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Foundation in Siamese breed, known for it&apos;s angular head, large flaring ears and almond-shaped eyes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Oriental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000126 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000126">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Breed known for it&apos;s long, soft coat and flat face. Most popular breed of cat.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Persian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000127 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000127">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Medium to large breed cat, known for their long, rabbit-like coats</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ragamuffin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000128 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000128">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A large, laid-back, semi long-haired breed, known for vivid blue eyes and pointed coat colour.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ragdoll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000129 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000129">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A short-haired breed known for it&apos;s silvery blue coat and vivid green eyes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RussianBlue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000130 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000130">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Breed known for it&apos;s ears, which are folded forward.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ScottishFold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000131 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000131">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A breed developed as a large, heavy boned breed that come in straight and curly varieties.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SelkirkRex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000132 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000132">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Medium to large breed, originating in Russia hundreds of years ago.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Siberian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000133 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000133">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Smaller than average breed, originating in Singapore.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Singapura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000134 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000134">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Medium-sized breed, known for its vibrant coat colour and plume tail, mimicking a fox.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Somali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000135 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000135">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A medium-sized breed known for its hairlessness, can come in various degrees of hairlessness. First bred in Toronto, Canada.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sphynx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000136 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000136">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A medium-sized breed, surprising heavy and muscular. Their fur is short, soft, and silky.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tonkinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000137 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000137">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A breed developed in Turkey, with long coats, commonly white. Often has two different coloured eyes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TurkishAngora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000183"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A rare and ancient breed that developed in central and southwest Asia, known for a ringtail pattern on the tail.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TurkishVan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000145 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000145">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Long-haired breed, known for long silvery-blue coat. Developed from the short-haired Russian Blue.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nebalung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000146 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000146">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The Javanese is a longhaired variety of Siamese dressed in Colorpoint colors. Breed foundation is Siamese, Balinese and colorpoint.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Javanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000175 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000175">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000209"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000210"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Manx breed born with a full length tail.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">IsleOfMann</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000177">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202"/>
+        <rdfs:isDefinedBy>Cat that has a short coat.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Short</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000178">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202"/>
+        <rdfs:isDefinedBy>Cats with long coat hair.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Long</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000179 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000179">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202"/>
+        <rdfs:isDefinedBy>Cats that appear completely bald. In some cases there are some thin patches of fuzz.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Hairless</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000180">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A coat consisting of one colour.</rdfs:label>
+        <rdfs:label xml:lang="en">Solid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000181">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A coat consisting of white and one other colour.</rdfs:label>
+        <rdfs:label xml:lang="en">BiColour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A common pattern coming in four varieties. Usually consists of an &quot;M&quot; marking on the forehead.</rdfs:label>
+        <rdfs:label xml:lang="en">Tabby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000183 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000183">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A coat consisting of three colours, commonly white black and orange.</rdfs:label>
+        <rdfs:label xml:lang="en">Calico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000184 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000184">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A consistent mix of colours, commonly orange and black or diluted tan and blue.</rdfs:label>
+        <rdfs:label xml:lang="en">Tortoiseshell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000185">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+        <rdfs:label>A coat where tip points (face, paws and tail) are a darker colour than the rest of the body.</rdfs:label>
+        <rdfs:label xml:lang="en">Colourpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000186">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000193"/>
+        <rdfs:label>A cat with a full length tail. Averages between 9-11 inches.</rdfs:label>
+        <rdfs:label xml:lang="en">FullLength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000187 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000187">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+        <rdfs:label xml:lang="en">Classic</rdfs:label>
+        <rdfs:label>This pattern usually has whorls ending in a &quot;target&quot; on the side of the cat.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000188 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000188">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+        <rdfs:label xml:lang="en">Ticked</rdfs:label>
+        <rdfs:label>Without visible striping.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000191 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+        <rdfs:label>Consists of striped rings around their tail and legs, a &quot;necklace&quot; of stripes on the front of their chests, and bands of solid or broken stripes running down the sides of their bodies. They will have the darker color in spots running in two lines across their tummies (called &quot;vest buttons.&quot;)</rdfs:label>
+        <rdfs:label xml:lang="en">Mackerel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000192 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000192">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000182"/>
+        <rdfs:label>Having a spotted coat that follows the usual tabby pattern.</rdfs:label>
+        <rdfs:label xml:lang="en">Spotted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000193 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000193">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034"/>
+        <rdfs:label>Length of tail occuring in a particular breed.</rdfs:label>
+        <rdfs:label xml:lang="en">TailLength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000193"/>
+        <rdfs:label>Any tail that is not full length.</rdfs:label>
+        <rdfs:label xml:lang="en">Bobbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000196 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000196">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+        <rdfs:label xml:lang="en">Rumpy</rdfs:label>
+        <rdfs:label>having no tail at all, usually has a tuft of hair where the tail would have grown.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000197 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000197">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+        <rdfs:label xml:lang="en">Riser</rdfs:label>
+        <rdfs:label>having a semi-noticeable bump of cartilage under the fur, in place of a tail. Only noticeable when a cat raises it&apos;s tail.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000198 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000198">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+        <rdfs:label xml:lang="en">Stumpy</rdfs:label>
+        <rdfs:label>having a partial tail of vestigial, fused vertebrae, up to about 3 cm (1 in) long.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000199 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000199">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+        <rdfs:label xml:lang="en">Stubby</rdfs:label>
+        <rdfs:label>having a short tail of non-fused bones, up to about half an average cat tail.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000200 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000200">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000194"/>
+        <rdfs:label>Having a half to normal length tail.</rdfs:label>
+        <rdfs:label xml:lang="en">Longy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034"/>
+        <rdfs:isDefinedBy>The colour of a particular cat&apos;s coat of fur.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CoatColour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034"/>
+        <rdfs:isDefinedBy>Length of fur occuring in a breed or individual cat.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CoatLength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034"/>
+        <rdfs:label xml:lang="en">CoatType</rdfs:label>
+        <rdfs:label>Type of fur on a cat&apos;s coat.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000204">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203"/>
+        <rdfs:label>Fur that is straight, most common type of coat.</rdfs:label>
+        <rdfs:label xml:lang="en">Straight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000205">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203"/>
+        <rdfs:label xml:lang="en">Curly/Wavy</rdfs:label>
+        <rdfs:label>Having a curly or wavy coat of fur.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000206 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203"/>
+        <rdfs:label>Coat type commonly associated with the Sphynx cat breed.</rdfs:label>
+        <rdfs:label xml:lang="en">ThinFuzz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000034"/>
+        <rdfs:comment>Type of cat. Every breed has unique characteristics. Cats are bred out and mixed to achieve different looks. Some ancient breeds are bred together to create new breeds, the new breeds that are recognized by the CFA are included.</rdfs:comment>
+        <rdfs:label xml:lang="en">Breed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>An ontology detailing pedigreed cat breeds and the physical characteristics associated with each breed.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000193"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000201"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000202"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000203"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/db/ontologies/2018/1/catontology/Cat_0000207"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
